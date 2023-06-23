@@ -1,0 +1,734 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #99DBF5;
+  justify-content: space-between;
+}
+main,
+header,
+footer {
+  width: 100%;
+}
+img {
+  width: 20vw;
+}
+nav {
+  background-color: #9AC5F4;
+  display: flex;
+  width: 100%;
+  min-height: 5vh;
+  justify-content: space-between;
+  position: sticky;
+  padding-right: 1rem;
+}
+nav div {
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 1.5rem;
+  text-decoration: none;
+  width: 55%;
+  justify-content: space-evenly;
+}
+.a {
+  text-decoration: none;
+  align-self: center;
+}
+.a:hover {
+  background-color: black;
+  border-radius: 0.6rem;
+}
+.logo {
+  display: flex;
+  width: 5vw;
+  justify-self: flex-end;
+  background-color: antiquewhite;
+}
+header {
+  width: 100%;
+  min-height: 5vh;
+}
+.h1-g{
+  background-color: #A7ECEE;
+  width: 100%;
+}
+.h1-g p{
+  text-align: center;
+  font-size: 1.8rem;
+}
+.h1-g h1 {
+  width: 100%;
+  display: flex;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+#section-1{
+  display: flex;
+  justify-content: center;
+}
+#section-1 img {
+  width: 40%;
+  object-fit: contain;
+}
+footer {
+  width: 100vw;
+  min-height: 3vh;
+  align-items: center;
+  text-align: center;
+  background-color: #9AC5F4;
+  font-weight: bold;
+}
+main {
+  width: 100vw;
+  min-height: 92vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  justify-content: center;
+}
+#section-2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-items: flex-end;
+  background-color: #A7ECEE;
+}
+#section-2 h4 {
+  flex-wrap: wrap;
+  width: 22vw;
+  display: flex;
+  justify-self: flex-start;
+  font-size: 1.7rem;
+  align-content: center;
+  font-family: 'Kanit', sans-serif;
+
+}
+#index-i-2{
+  width: 20%;
+}
+
+/* AboutUs */
+#body-about{
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+}
+.main-about{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-evenly;
+  justify-items: center;
+}
+.section-a{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  align-items: center;
+  min-height: 25vh;
+  width: 80%;
+  background-color: #A7ECEE;
+  font-family: 'Kanit', sans-serif;
+  justify-content: space-around;
+}
+.about-h3 { 
+  width: 50%;
+}
+.img-a {
+  width: 20%;
+}
+.a-ab{
+  text-decoration: none;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+/* Contacts */
+#body-c{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#main-c{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#section-c{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 70vh;
+  align-items: center;
+  align-content: space-around;
+  background-color: #A7ECEE;
+  padding-top: 1rem;
+}
+#section-c h3{
+  display: flex;
+  font-size: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  font-family: 'Kanit', sans-serif;
+}
+#image-c{
+  object-fit: contain;
+  width: 40%;
+  height: 50vh;
+}
+#div-a-c{
+  display: flex;
+  width:60%;
+  min-height: 5vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #A7ECEE;
+}
+.a-c{
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* Information */
+#body-inf{
+  justify-content: space-around;
+}
+#main-inf{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+table{
+  text-align: center;
+  width: 60%;
+  min-height: 75vh;
+  border: solid rgb(51, 59, 2) 1rem;
+  font-size: 2rem;
+  border-collapse: collapse;
+  background-color: #A7ECEE;
+}
+td{
+  border: solid rgb(51, 59, 2) 1rem;
+  font-family: 'Kanit', sans-serif;
+}
+thead{
+  height: 10vh;
+}
+th{
+  font-weight: bolder;
+}
+td:hover {background-color: rgb(82, 41, 27);}
+
+
+/* BenefitsTips */
+#main-bnf{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+   flex-direction: column;
+   align-items: center;
+}
+#main-bnf div{
+  width: 80%;
+}
+.div-bnf{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50%;
+  min-height: 30vh;
+  align-items: center;
+  background-color: #A7ECEE;
+}
+.div-bnf img{
+  object-fit: cover;
+  width: 35%;
+}
+#list-bnf{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 2rem;
+  background-color: #A7ECEE;
+}
+ol{
+  display: flex;
+  flex-wrap: wrap;
+  width: 35%;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: red;
+  font-size: 2rem;
+}
+.list-bnf>ul{
+  display: flex;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  list-style-type:square;
+  color: black;
+  padding: 2rem;
+  font-size: 1.5rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+li{
+  padding: 0.5rem;
+}
+#body-bnf{
+  justify-content: space-evenly;
+}
+  
+/* Raffle */
+#main-raff{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#article-raff{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: 'Kanit', sans-serif;
+  background-color: #A7ECEE;
+}
+#map-raff{
+  min-height: 60vh;
+  width: 80%;
+}
+#form-raff{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25vw;
+  background-color: #A7ECEE;
+}
+#field-1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 23vw;
+  justify-content: space-around;
+}
+#field-1 input, label, select{
+  font-family: 'Kanit', sans-serif;
+  width: 10vw;
+  font-size: 1rem;;
+}
+#field-1 label{
+  width: 100%;
+  font-size: 1.4rem;
+  min-height: 1rem;
+  align-items: center;
+}
+#field-2{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  min-height: 20vh;
+  width: 23vw;
+}
+#field-2 div{
+  width: 15vw;
+  font-family: 'Kanit', sans-serif;
+}
+#field-2>label{
+  font-size: 1rem;
+  font-weight: 300;
+}
+#field-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 20vh;
+  width: 23vw;
+}
+#field-3 h4{
+  font-size: 1.8rem ;
+}
+#field-4{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+#send{
+  width: 4vw;
+}
+#field-4 div{
+  width: 80%;
+}
+#field-4 label{
+  text-align: center;
+}
+fieldset{
+  background-color: transparent;
+  border-color: transparent;
+}
+textarea{
+  width: 100%;
+  resize:none ;
+}
+
+/* Responsive */
+ 
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+  header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  nav{
+    align-items: center;
+    padding: 0;
+    position: static;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .logo{
+   width: 20%;
+  }
+  .nav div{
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* index */
+  #section-2{
+    align-items: center;
+    flex-direction: column;
+  }
+  #section-2 h4{
+    text-align: center;
+    width: 100%;
+  }
+  #index-i-2 {
+    width: 50%;
+  }
+
+  /* about */
+
+  .section-a{
+    flex-direction: column;
+  }
+  .about-h3{
+    text-align: center;
+    width: 100%;
+  }
+
+  /* benefitsTips */
+  #main-bnf{
+    padding: 2rem;
+  }
+  #main-bnf .div-bnf{
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .div-bnf img{
+    width: 100%;
+  }
+  .list-bnf{
+    width: 80%;
+  }
+  ol{
+    align-items: center;
+    width: 100%;
+  }
+  .list-bnf>ul{
+    padding: 0.2rem;
+  }
+
+  /* raffle */
+  #main-raff{
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  #section-raff{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    width: 100%;
+  }
+  #article-raff{
+    padding: 2rem;
+    width: 85%;
+  }
+  #map-raff{
+    width: 80%;
+    min-height: 40vh ;
+  }
+  #form-raff{
+    width: 85%;
+  }
+  #field-1, #field-2, #field-3, #field-4{
+    width: 100%;
+    align-items: center;
+  }
+  label{
+    text-align: center;
+  }
+  #field-1  input{
+    text-align: center;
+    width: 50%
+  }
+  #field-1  select{
+    text-align: center;
+    width: 50%;
+  }
+  #field-2 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5rem;
+    width:25%;
+    align-content: space-between;
+  }
+  #field-2 input{
+    text-align: center;
+  }
+  #field-2 label{
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: start;
+  }
+
+  #field-3 textarea{
+    text-align: center;
+    width: 80%;
+  }
+  #field-4{
+    padding: 0.3rem;
+    flex-direction: column;
+  }
+  #field-4 div{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 0.5rem;
+  }
+  #field-4 input{
+    text-align: center;
+  }
+  #field-4 div >label{
+    width: 75%;
+  }
+  #field-4 #send{
+    width: 20%;
+  }
+}
+
+/* Movile */
+@media only screen  and (max-width:767px){
+  body{
+    flex-direction: column;
+  }
+  header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  nav{
+    align-items: center;
+    padding: 0;
+    position: static;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  nav div{
+    flex-direction: column;
+  }
+  .logo{
+    width:50%;
+  }
+  main{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  /* index */
+  #section-1 img{
+    width: 100%;
+  }
+  #section-2{
+    flex-direction: column;
+  }
+  #section-2 h4{  
+    text-align: center;
+    width: 100%;
+  }
+  #index-i-2{
+    width: 100%;
+  }
+
+  /* about */
+  #main-about{
+    text-align: center;
+    width: 100%;
+  }
+  .section-a{
+    flex-direction: column;
+    width: 100%;
+  }
+  .img-a{
+    width: 100%;
+  }
+  .about-h3{
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* contact */
+  #main-c h1{
+    font-size: 2.5rem;
+  }
+  #image-c{
+    width: 100%;
+}
+  #section-c h3{
+    width: 100%;
+    text-align: center;
+  }
+  #div-a-c{
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* information */
+  #main-inf{
+    justify-content: space-evenly;
+  }
+  table{
+    width: 100%;
+    border: solid rgb(51, 59, 2) 0.2rem;
+    font-size: 2rem;
+    min-height: auto;
+  }
+  th{
+    border: solid rgb(51, 59, 2) 0.2rem;
+  }
+  td{
+    border:solid rgb(51, 59, 2) 0.2rem;
+  }
+
+  /* benefitsTips */
+  #main-bnf .div-bnf{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-bnf img{
+    width: 100%;
+  }
+  ol{
+    font-size: 1.7rem;
+    width: 75%;
+  }
+  li{
+    padding: 0;
+    padding: 0.5rem ;
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  .list-bnf ul{
+    width: 100%;
+    padding: 0;
+  }
+
+  /* raffle */
+  #section-raff{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  #article-raff{
+    width: 100%;
+  }
+  #form-raff{
+    width: 100%;
+  }
+  #field-1, #field-2, #field-3{
+    width: 100%;
+  }
+  #field-1 label{
+    width: 100%;
+  }
+  #field-1 input,select{
+    width: 100%;
+  }
+  #field-2{
+    text-align: start;
+    min-height:15vh ;
+    align-items: center;
+  }
+  #field-2 div{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+  }
+  #field-2 label{
+    text-align: center;
+    width: 70%;
+    font-size: 1rem;
+  }
+  #field-4 { 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #field-4 div{
+    width: 100%;
+  }
+  #field-4 div>input{
+    width: 20%;
+  }
+  #field-4 input{
+    width: 50%;
+  }
+  #map-raff{
+    min-height: 30vh;
+    width: 100%;
+  }
+  #article-raff h2{
+    width: 100%;
+    font-size: 2rem;
+  }
+  #main-raff p{
+    font-size: 1.4rem;
+  }
+}
+
+
