@@ -301,6 +301,11 @@ li{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+#section-raff{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
 #article-raff{
   display: flex;
   flex-direction: column;
